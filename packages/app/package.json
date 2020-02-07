@@ -1,11 +1,11 @@
 {
-  "name": "app",
+  "name": "@app/starter",
   "version": "0.1.0",
   "type": "module",
   "main": "dist/index.js",
   "dependencies": {
-    "common": "0.1.0",
-    "user": "0.1.0"
+    "@app/common": "0.1.0",
+    "@app/user": "0.1.0"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^7.1.1"
