@@ -1,0 +1,17 @@
+{
+  "name": "user",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "dependencies": {
+    "common": "0.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.1.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "license": "MIT"
+}
